@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7508B9E91565871600496778 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7508B9E81565871600496778 /* QuartzCore.framework */; };
+		7508B9F715658C9300496778 /* deleteButtonBgDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508B9F315658C9300496778 /* deleteButtonBgDown.png */; };
+		7508B9F815658C9300496778 /* deleteButtonBgDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508B9F415658C9300496778 /* deleteButtonBgDown@2x.png */; };
+		7508B9F915658C9300496778 /* deleteButtonBgUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508B9F515658C9300496778 /* deleteButtonBgUp.png */; };
+		7508B9FA15658C9300496778 /* deleteButtonBgUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508B9F615658C9300496778 /* deleteButtonBgUp@2x.png */; };
+		7508B9FC15658E8A00496778 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7508B9FB15658E8A00496778 /* Twitter.framework */; };
+		7508BA0C1565B87600496778 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA0A1565B87600496778 /* star.png */; };
+		7508BA0D1565B87600496778 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA0B1565B87600496778 /* star@2x.png */; };
+		7508BA1415666FAD00496778 /* greenLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA0E15666FAD00496778 /* greenLight.png */; };
+		7508BA1515666FAD00496778 /* greenLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA0F15666FAD00496778 /* greenLight@2x.png */; };
+		7508BA1615666FAD00496778 /* redLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA1015666FAD00496778 /* redLight.png */; };
+		7508BA1715666FAD00496778 /* redLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA1115666FAD00496778 /* redLight@2x.png */; };
+		7508BA1815666FAD00496778 /* redYellowLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA1215666FAD00496778 /* redYellowLight.png */; };
+		7508BA1915666FAD00496778 /* redYellowLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA1315666FAD00496778 /* redYellowLight@2x.png */; };
+		7508BA1E1566771C00496778 /* greenButtonBgDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA1A1566771C00496778 /* greenButtonBgDown.png */; };
+		7508BA1F1566771C00496778 /* greenButtonBgDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA1B1566771C00496778 /* greenButtonBgDown@2x.png */; };
+		7508BA201566771C00496778 /* greenButtonBgUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA1C1566771C00496778 /* greenButtonBgUp.png */; };
+		7508BA211566771C00496778 /* greenButtonBgUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA1D1566771C00496778 /* greenButtonBgUp@2x.png */; };
+		7508BA241569728000496778 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508BA231569727F00496778 /* SettingsViewController.m */; };
+		7508BA27156A79F500496778 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA25156A79F500496778 /* Icon-72.png */; };
+		7508BA28156A79F500496778 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA26156A79F500496778 /* Icon-72@2x.png */; };
+		7508BA2A156A7E1700496778 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA29156A7E1700496778 /* Default-Portrait~ipad.png */; };
+		7508BA2C156A7EC300496778 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA2B156A7EC300496778 /* Default-Landscape~ipad.png */; };
+		7508BA2E156A7ECA00496778 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA2D156A7ECA00496778 /* Default-Landscape@2x~ipad.png */; };
+		7508BA30156A7ED600496778 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BA2F156A7ED600496778 /* Default-Portrait@2x~ipad.png */; };
+		750AC291157E0F6500BC85BA /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750AC28F157E0F6500BC85BA /* iPhoneStoryboard.storyboard */; };
+		750AC294157E101100BC85BA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 750AC292157E101100BC85BA /* Icon.png */; };
+		750AC295157E101100BC85BA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 750AC293157E101100BC85BA /* Icon@2x.png */; };
+		750AC2A2157E2A6C00BC85BA /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750AC2A1157E2A6C00BC85BA /* StatsViewController.m */; };
+		750AC2A5157E3C3F00BC85BA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 750AC2A3157E3C3F00BC85BA /* Default.png */; };
+		750AC2A6157E3C3F00BC85BA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 750AC2A4157E3C3F00BC85BA /* Default@2x.png */; };
+		754EE08517EC7D6900EBF678 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 754EE08317EC7D6900EBF678 /* iTunesArtwork.png */; };
+		754EE08617EC7D6900EBF678 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 754EE08417EC7D6900EBF678 /* iTunesArtwork@2x.png */; };
+		754EE08D17EC7FAD00EBF678 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 754EE08917EC7FAD00EBF678 /* Icon-Small-50.png */; };
+		754EE08E17EC7FAD00EBF678 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 754EE08A17EC7FAD00EBF678 /* Icon-Small-50@2x.png */; };
+		754EE08F17EC7FAD00EBF678 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 754EE08B17EC7FAD00EBF678 /* Icon-Small.png */; };
+		754EE09017EC7FAD00EBF678 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 754EE08C17EC7FAD00EBF678 /* Icon-Small@2x.png */; };
+		755A3F8C1598A6E000B30D4E /* GraphsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755A3F8B1598A6E000B30D4E /* GraphsViewController.m */; };
+		755C6E1515CBDDA3003EEC5F /* highBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 755C6E1315CBDDA3003EEC5F /* highBeep.wav */; };
+		755C6E1615CBDDA3003EEC5F /* lowBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 755C6E1415CBDDA3003EEC5F /* lowBeep.wav */; };
+		755C6E1B15CBEE40003EEC5F /* fanfare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 755C6E1A15CBEE40003EEC5F /* fanfare.wav */; };
+		75679DEC17EC8FC700371E21 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75679DE917EC8F9D00371E21 /* libCorePlot-CocoaTouch.a */; };
+		75804781169B6AB800FEC118 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75804780169B6AB800FEC118 /* Default-568h@2x.png */; };
+		75B3A78415C91EE5009C0D02 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B3A78315C91EE5009C0D02 /* AudioToolbox.framework */; };
+		75B3A78F15C92747009C0D02 /* downSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75B3A78C15C92747009C0D02 /* downSound.wav */; };
+		75B3A79015C92747009C0D02 /* recycle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75B3A78D15C92747009C0D02 /* recycle.wav */; };
+		75B3A79115C92747009C0D02 /* upSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75B3A78E15C92747009C0D02 /* upSound.wav */; };
+		75B72CFF156439B800104DD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B72CFE156439B800104DD0 /* UIKit.framework */; };
+		75B72D01156439B800104DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B72D00156439B800104DD0 /* Foundation.framework */; };
+		75B72D03156439B800104DD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B72D02156439B800104DD0 /* CoreGraphics.framework */; };
+		75B72D09156439B800104DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75B72D07156439B800104DD0 /* InfoPlist.strings */; };
+		75B72D0B156439B800104DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B72D0A156439B800104DD0 /* main.m */; };
+		75B72D0F156439B900104DD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B72D0E156439B900104DD0 /* AppDelegate.m */; };
+		75B72D12156439B900104DD0 /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B72D10156439B900104DD0 /* iPadStoryboard.storyboard */; };
+		75B72D15156439B900104DD0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B72D14156439B900104DD0 /* MainViewController.m */; };
+		75B72D21156439B900104DD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B72CFE156439B800104DD0 /* UIKit.framework */; };
+		75B72D22156439B900104DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B72D00156439B800104DD0 /* Foundation.framework */; };
+		75B72D2A156439B900104DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75B72D28156439B900104DD0 /* InfoPlist.strings */; };
+		75B72D2D156439B900104DD0 /* SpeedCubing_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B72D2C156439B900104DD0 /* SpeedCubing_TimerTests.m */; };
+		75B72D3815643ADF00104DD0 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B72D3715643ADF00104DD0 /* HistoryViewController.m */; };
+		75B72D3B15643B7200104DD0 /* PuzzlePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B72D3A15643B7200104DD0 /* PuzzlePickerViewController.m */; };
+		75B72D921564546600104DD0 /* leftTapZone.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B72D901564546600104DD0 /* leftTapZone.png */; };
+		75B72D931564546600104DD0 /* rightTapZone.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B72D911564546600104DD0 /* rightTapZone.png */; };
+		75B72D96156454C700104DD0 /* leftTapZone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B72D94156454C700104DD0 /* leftTapZone@2x.png */; };
+		75B72D97156454C700104DD0 /* rightTapZone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B72D95156454C700104DD0 /* rightTapZone@2x.png */; };
+		75B72DB115651B1A00104DD0 /* DetailedHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B72DB015651B1A00104DD0 /* DetailedHistoryViewController.m */; };
+		75C0883A176D40BE009409C5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C08839176D40BE009409C5 /* Social.framework */; };
+		75E233801584DD8000405DB8 /* colorPickerSelectedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E2337F1584DD8000405DB8 /* colorPickerSelectedBackground.png */; };
+		75E233831584DD8700405DB8 /* colorPickerSelectedBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E233821584DD8700405DB8 /* colorPickerSelectedBackground@2x.png */; };
+		75E5E37615BF96460024DEB2 /* SessionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E5E37515BF96460024DEB2 /* SessionsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75679DE817EC8F9D00371E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75679DE217EC8F9D00371E21 /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		75679DEA17EC8FC100371E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75679DE217EC8F9D00371E21 /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B83460FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		75B72D23156439B900104DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B72CF1156439B800104DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B72CF9156439B800104DD0;
+			remoteInfo = "SpeedCubing Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7508B9E81565871600496778 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7508B9F315658C9300496778 /* deleteButtonBgDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteButtonBgDown.png; sourceTree = SOURCE_ROOT; };
+		7508B9F415658C9300496778 /* deleteButtonBgDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteButtonBgDown@2x.png"; sourceTree = SOURCE_ROOT; };
+		7508B9F515658C9300496778 /* deleteButtonBgUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteButtonBgUp.png; sourceTree = SOURCE_ROOT; };
+		7508B9F615658C9300496778 /* deleteButtonBgUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteButtonBgUp@2x.png"; sourceTree = SOURCE_ROOT; };
+		7508B9FB15658E8A00496778 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7508BA0A1565B87600496778 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = SOURCE_ROOT; };
+		7508BA0B1565B87600496778 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = SOURCE_ROOT; };
+		7508BA0E15666FAD00496778 /* greenLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenLight.png; sourceTree = SOURCE_ROOT; };
+		7508BA0F15666FAD00496778 /* greenLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenLight@2x.png"; sourceTree = SOURCE_ROOT; };
+		7508BA1015666FAD00496778 /* redLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redLight.png; sourceTree = SOURCE_ROOT; };
+		7508BA1115666FAD00496778 /* redLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redLight@2x.png"; sourceTree = SOURCE_ROOT; };
+		7508BA1215666FAD00496778 /* redYellowLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redYellowLight.png; sourceTree = SOURCE_ROOT; };
+		7508BA1315666FAD00496778 /* redYellowLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redYellowLight@2x.png"; sourceTree = SOURCE_ROOT; };
+		7508BA1A1566771C00496778 /* greenButtonBgDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButtonBgDown.png; sourceTree = SOURCE_ROOT; };
+		7508BA1B1566771C00496778 /* greenButtonBgDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButtonBgDown@2x.png"; sourceTree = SOURCE_ROOT; };
+		7508BA1C1566771C00496778 /* greenButtonBgUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButtonBgUp.png; sourceTree = SOURCE_ROOT; };
+		7508BA1D1566771C00496778 /* greenButtonBgUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButtonBgUp@2x.png"; sourceTree = SOURCE_ROOT; };
+		7508BA221569727F00496778 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		7508BA231569727F00496778 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		7508BA25156A79F500496778 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		7508BA26156A79F500496778 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		7508BA29156A7E1700496778 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		7508BA2B156A7EC300496778 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		7508BA2D156A7ECA00496778 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		7508BA2F156A7ED600496778 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		750AC290157E0F6500BC85BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
+		750AC292157E101100BC85BA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		750AC293157E101100BC85BA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		750AC2A0157E2A6C00BC85BA /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
+		750AC2A1157E2A6C00BC85BA /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
+		750AC2A3157E3C3F00BC85BA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		750AC2A4157E3C3F00BC85BA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		754EE08317EC7D6900EBF678 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		754EE08417EC7D6900EBF678 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		754EE08917EC7FAD00EBF678 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		754EE08A17EC7FAD00EBF678 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		754EE08B17EC7FAD00EBF678 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		754EE08C17EC7FAD00EBF678 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		755A3F8A1598A6E000B30D4E /* GraphsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphsViewController.h; sourceTree = "<group>"; };
+		755A3F8B1598A6E000B30D4E /* GraphsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphsViewController.m; sourceTree = "<group>"; };
+		755C6E1315CBDDA3003EEC5F /* highBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = highBeep.wav; path = soundeffects/highBeep.wav; sourceTree = SOURCE_ROOT; };
+		755C6E1415CBDDA3003EEC5F /* lowBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = lowBeep.wav; path = soundeffects/lowBeep.wav; sourceTree = SOURCE_ROOT; };
+		755C6E1A15CBEE40003EEC5F /* fanfare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fanfare.wav; path = soundeffects/fanfare.wav; sourceTree = SOURCE_ROOT; };
+		75679DE217EC8F9D00371E21 /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "CorePlot_1.3/Source/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
+		75804780169B6AB800FEC118 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		75B3A78315C91EE5009C0D02 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		75B3A78C15C92747009C0D02 /* downSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = downSound.wav; path = soundeffects/downSound.wav; sourceTree = SOURCE_ROOT; };
+		75B3A78D15C92747009C0D02 /* recycle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = recycle.wav; path = soundeffects/recycle.wav; sourceTree = SOURCE_ROOT; };
+		75B3A78E15C92747009C0D02 /* upSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = upSound.wav; path = soundeffects/upSound.wav; sourceTree = SOURCE_ROOT; };
+		75B72CFA156439B800104DD0 /* SpeedCubing Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeedCubing Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B72CFE156439B800104DD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75B72D00156439B800104DD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75B72D02156439B800104DD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75B72D06156439B800104DD0 /* SpeedCubing Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeedCubing Timer-Info.plist"; sourceTree = "<group>"; };
+		75B72D08156439B800104DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75B72D0A156439B800104DD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75B72D0C156439B800104DD0 /* SpeedCubing Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeedCubing Timer-Prefix.pch"; sourceTree = "<group>"; };
+		75B72D0D156439B800104DD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75B72D0E156439B900104DD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75B72D11156439B900104DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPadStoryboard.storyboard; sourceTree = "<group>"; };
+		75B72D13156439B900104DD0 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		75B72D14156439B900104DD0 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		75B72D1E156439B900104DD0 /* SpeedCubing TimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpeedCubing TimerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B72D27156439B900104DD0 /* SpeedCubing TimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeedCubing TimerTests-Info.plist"; sourceTree = "<group>"; };
+		75B72D29156439B900104DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75B72D2B156439B900104DD0 /* SpeedCubing_TimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedCubing_TimerTests.h; sourceTree = "<group>"; };
+		75B72D2C156439B900104DD0 /* SpeedCubing_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedCubing_TimerTests.m; sourceTree = "<group>"; };
+		75B72D3615643ADF00104DD0 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		75B72D3715643ADF00104DD0 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		75B72D3915643B7200104DD0 /* PuzzlePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzlePickerViewController.h; sourceTree = "<group>"; };
+		75B72D3A15643B7200104DD0 /* PuzzlePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzlePickerViewController.m; sourceTree = "<group>"; };
+		75B72D901564546600104DD0 /* leftTapZone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftTapZone.png; sourceTree = SOURCE_ROOT; };
+		75B72D911564546600104DD0 /* rightTapZone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightTapZone.png; sourceTree = SOURCE_ROOT; };
+		75B72D94156454C700104DD0 /* leftTapZone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftTapZone@2x.png"; sourceTree = SOURCE_ROOT; };
+		75B72D95156454C700104DD0 /* rightTapZone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightTapZone@2x.png"; sourceTree = SOURCE_ROOT; };
+		75B72DAF15651B1A00104DD0 /* DetailedHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedHistoryViewController.h; sourceTree = "<group>"; };
+		75B72DB015651B1A00104DD0 /* DetailedHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedHistoryViewController.m; sourceTree = "<group>"; };
+		75C08839176D40BE009409C5 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		75E2337F1584DD8000405DB8 /* colorPickerSelectedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colorPickerSelectedBackground.png; path = ../colorPickerSelectedBackground.png; sourceTree = "<group>"; };
+		75E233821584DD8700405DB8 /* colorPickerSelectedBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "colorPickerSelectedBackground@2x.png"; path = "../colorPickerSelectedBackground@2x.png"; sourceTree = "<group>"; };
+		75E5E37415BF96460024DEB2 /* SessionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionsViewController.h; sourceTree = "<group>"; };
+		75E5E37515BF96460024DEB2 /* SessionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75B72CF7156439B800104DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75679DEC17EC8FC700371E21 /* libCorePlot-CocoaTouch.a in Frameworks */,
+				75C0883A176D40BE009409C5 /* Social.framework in Frameworks */,
+				75B3A78415C91EE5009C0D02 /* AudioToolbox.framework in Frameworks */,
+				7508B9FC15658E8A00496778 /* Twitter.framework in Frameworks */,
+				7508B9E91565871600496778 /* QuartzCore.framework in Frameworks */,
+				75B72CFF156439B800104DD0 /* UIKit.framework in Frameworks */,
+				75B72D01156439B800104DD0 /* Foundation.framework in Frameworks */,
+				75B72D03156439B800104DD0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B72D1A156439B900104DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B72D21156439B900104DD0 /* UIKit.framework in Frameworks */,
+				75B72D22156439B900104DD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75679DE317EC8F9D00371E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75679DE917EC8F9D00371E21 /* libCorePlot-CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B3A78515C91FB7009C0D02 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				755C6E1A15CBEE40003EEC5F /* fanfare.wav */,
+				755C6E1315CBDDA3003EEC5F /* highBeep.wav */,
+				755C6E1415CBDDA3003EEC5F /* lowBeep.wav */,
+				75B3A78C15C92747009C0D02 /* downSound.wav */,
+				75B3A78D15C92747009C0D02 /* recycle.wav */,
+				75B3A78E15C92747009C0D02 /* upSound.wav */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		75B72CEF156439B800104DD0 = {
+			isa = PBXGroup;
+			children = (
+				754EE08917EC7FAD00EBF678 /* Icon-Small-50.png */,
+				754EE08A17EC7FAD00EBF678 /* Icon-Small-50@2x.png */,
+				754EE08B17EC7FAD00EBF678 /* Icon-Small.png */,
+				754EE08C17EC7FAD00EBF678 /* Icon-Small@2x.png */,
+				754EE08317EC7D6900EBF678 /* iTunesArtwork.png */,
+				754EE08417EC7D6900EBF678 /* iTunesArtwork@2x.png */,
+				75804780169B6AB800FEC118 /* Default-568h@2x.png */,
+				7508BA2F156A7ED600496778 /* Default-Portrait@2x~ipad.png */,
+				7508BA2D156A7ECA00496778 /* Default-Landscape@2x~ipad.png */,
+				7508BA2B156A7EC300496778 /* Default-Landscape~ipad.png */,
+				7508BA29156A7E1700496778 /* Default-Portrait~ipad.png */,
+				750AC2A3157E3C3F00BC85BA /* Default.png */,
+				750AC2A4157E3C3F00BC85BA /* Default@2x.png */,
+				7508BA25156A79F500496778 /* Icon-72.png */,
+				7508BA26156A79F500496778 /* Icon-72@2x.png */,
+				750AC292157E101100BC85BA /* Icon.png */,
+				750AC293157E101100BC85BA /* Icon@2x.png */,
+				75B72D04156439B800104DD0 /* SpeedCubing Timer */,
+				75B72D25156439B900104DD0 /* SpeedCubing TimerTests */,
+				75B72CFD156439B800104DD0 /* Frameworks */,
+				75B72CFB156439B800104DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75B72CFB156439B800104DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B72CFA156439B800104DD0 /* SpeedCubing Timer.app */,
+				75B72D1E156439B900104DD0 /* SpeedCubing TimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B72CFD156439B800104DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75679DE217EC8F9D00371E21 /* CorePlot-CocoaTouch.xcodeproj */,
+				75C08839176D40BE009409C5 /* Social.framework */,
+				75B3A78315C91EE5009C0D02 /* AudioToolbox.framework */,
+				7508B9FB15658E8A00496778 /* Twitter.framework */,
+				7508B9E81565871600496778 /* QuartzCore.framework */,
+				75B72CFE156439B800104DD0 /* UIKit.framework */,
+				75B72D00156439B800104DD0 /* Foundation.framework */,
+				75B72D02156439B800104DD0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75B72D04156439B800104DD0 /* SpeedCubing Timer */ = {
+			isa = PBXGroup;
+			children = (
+				75B3A78515C91FB7009C0D02 /* Sound */,
+				75B72D8D1564543300104DD0 /* Images */,
+				75B72D10156439B900104DD0 /* iPadStoryboard.storyboard */,
+				750AC28F157E0F6500BC85BA /* iPhoneStoryboard.storyboard */,
+				75B72D0D156439B800104DD0 /* AppDelegate.h */,
+				75B72D0E156439B900104DD0 /* AppDelegate.m */,
+				75B72D13156439B900104DD0 /* MainViewController.h */,
+				75B72D14156439B900104DD0 /* MainViewController.m */,
+				75B72D3615643ADF00104DD0 /* HistoryViewController.h */,
+				75B72D3715643ADF00104DD0 /* HistoryViewController.m */,
+				75B72DAF15651B1A00104DD0 /* DetailedHistoryViewController.h */,
+				75B72DB015651B1A00104DD0 /* DetailedHistoryViewController.m */,
+				75E5E37415BF96460024DEB2 /* SessionsViewController.h */,
+				75E5E37515BF96460024DEB2 /* SessionsViewController.m */,
+				75B72D3915643B7200104DD0 /* PuzzlePickerViewController.h */,
+				75B72D3A15643B7200104DD0 /* PuzzlePickerViewController.m */,
+				7508BA221569727F00496778 /* SettingsViewController.h */,
+				7508BA231569727F00496778 /* SettingsViewController.m */,
+				750AC2A0157E2A6C00BC85BA /* StatsViewController.h */,
+				750AC2A1157E2A6C00BC85BA /* StatsViewController.m */,
+				755A3F8A1598A6E000B30D4E /* GraphsViewController.h */,
+				755A3F8B1598A6E000B30D4E /* GraphsViewController.m */,
+				75B72D05156439B800104DD0 /* Supporting Files */,
+			);
+			path = "SpeedCubing Timer";
+			sourceTree = "<group>";
+		};
+		75B72D05156439B800104DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75B72D06156439B800104DD0 /* SpeedCubing Timer-Info.plist */,
+				75B72D07156439B800104DD0 /* InfoPlist.strings */,
+				75B72D0A156439B800104DD0 /* main.m */,
+				75B72D0C156439B800104DD0 /* SpeedCubing Timer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75B72D25156439B900104DD0 /* SpeedCubing TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				75B72D2B156439B900104DD0 /* SpeedCubing_TimerTests.h */,
+				75B72D2C156439B900104DD0 /* SpeedCubing_TimerTests.m */,
+				75B72D26156439B900104DD0 /* Supporting Files */,
+			);
+			path = "SpeedCubing TimerTests";
+			sourceTree = "<group>";
+		};
+		75B72D26156439B900104DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75B72D27156439B900104DD0 /* SpeedCubing TimerTests-Info.plist */,
+				75B72D28156439B900104DD0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75B72D8D1564543300104DD0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				75E233821584DD8700405DB8 /* colorPickerSelectedBackground@2x.png */,
+				75E2337F1584DD8000405DB8 /* colorPickerSelectedBackground.png */,
+				7508BA1A1566771C00496778 /* greenButtonBgDown.png */,
+				7508BA1B1566771C00496778 /* greenButtonBgDown@2x.png */,
+				7508BA1C1566771C00496778 /* greenButtonBgUp.png */,
+				7508BA1D1566771C00496778 /* greenButtonBgUp@2x.png */,
+				7508BA0E15666FAD00496778 /* greenLight.png */,
+				7508BA0F15666FAD00496778 /* greenLight@2x.png */,
+				7508BA1015666FAD00496778 /* redLight.png */,
+				7508BA1115666FAD00496778 /* redLight@2x.png */,
+				7508BA1215666FAD00496778 /* redYellowLight.png */,
+				7508BA1315666FAD00496778 /* redYellowLight@2x.png */,
+				7508BA0A1565B87600496778 /* star.png */,
+				7508BA0B1565B87600496778 /* star@2x.png */,
+				7508B9F315658C9300496778 /* deleteButtonBgDown.png */,
+				7508B9F415658C9300496778 /* deleteButtonBgDown@2x.png */,
+				7508B9F515658C9300496778 /* deleteButtonBgUp.png */,
+				7508B9F615658C9300496778 /* deleteButtonBgUp@2x.png */,
+				75B72D94156454C700104DD0 /* leftTapZone@2x.png */,
+				75B72D95156454C700104DD0 /* rightTapZone@2x.png */,
+				75B72D901564546600104DD0 /* leftTapZone.png */,
+				75B72D911564546600104DD0 /* rightTapZone.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75B72CF9156439B800104DD0 /* SpeedCubing Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B72D30156439B900104DD0 /* Build configuration list for PBXNativeTarget "SpeedCubing Timer" */;
+			buildPhases = (
+				75B72CF6156439B800104DD0 /* Sources */,
+				75B72CF7156439B800104DD0 /* Frameworks */,
+				75B72CF8156439B800104DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75679DEB17EC8FC100371E21 /* PBXTargetDependency */,
+			);
+			name = "SpeedCubing Timer";
+			productName = "SpeedCubing Timer";
+			productReference = 75B72CFA156439B800104DD0 /* SpeedCubing Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75B72D1D156439B900104DD0 /* SpeedCubing TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B72D33156439B900104DD0 /* Build configuration list for PBXNativeTarget "SpeedCubing TimerTests" */;
+			buildPhases = (
+				75B72D19156439B900104DD0 /* Sources */,
+				75B72D1A156439B900104DD0 /* Frameworks */,
+				75B72D1B156439B900104DD0 /* Resources */,
+				75B72D1C156439B900104DD0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75B72D24156439B900104DD0 /* PBXTargetDependency */,
+			);
+			name = "SpeedCubing TimerTests";
+			productName = "SpeedCubing TimerTests";
+			productReference = 75B72D1E156439B900104DD0 /* SpeedCubing TimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75B72CF1156439B800104DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					75B72CF9156439B800104DD0 = {
+						DevelopmentTeam = 8ZN2486MJ7;
+					};
+				};
+			};
+			buildConfigurationList = 75B72CF4156439B800104DD0 /* Build configuration list for PBXProject "SpeedCubing Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75B72CEF156439B800104DD0;
+			productRefGroup = 75B72CFB156439B800104DD0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 75679DE317EC8F9D00371E21 /* Products */;
+					ProjectRef = 75679DE217EC8F9D00371E21 /* CorePlot-CocoaTouch.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				75B72CF9156439B800104DD0 /* SpeedCubing Timer */,
+				75B72D1D156439B900104DD0 /* SpeedCubing TimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		75679DE917EC8F9D00371E21 /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = 75679DE817EC8F9D00371E21 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75B72CF8156439B800104DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B72D09156439B800104DD0 /* InfoPlist.strings in Resources */,
+				75B72D12156439B900104DD0 /* iPadStoryboard.storyboard in Resources */,
+				75B72D921564546600104DD0 /* leftTapZone.png in Resources */,
+				75B72D931564546600104DD0 /* rightTapZone.png in Resources */,
+				75B72D96156454C700104DD0 /* leftTapZone@2x.png in Resources */,
+				75B72D97156454C700104DD0 /* rightTapZone@2x.png in Resources */,
+				7508B9F715658C9300496778 /* deleteButtonBgDown.png in Resources */,
+				7508B9F815658C9300496778 /* deleteButtonBgDown@2x.png in Resources */,
+				7508B9F915658C9300496778 /* deleteButtonBgUp.png in Resources */,
+				7508B9FA15658C9300496778 /* deleteButtonBgUp@2x.png in Resources */,
+				7508BA0C1565B87600496778 /* star.png in Resources */,
+				7508BA0D1565B87600496778 /* star@2x.png in Resources */,
+				7508BA1415666FAD00496778 /* greenLight.png in Resources */,
+				7508BA1515666FAD00496778 /* greenLight@2x.png in Resources */,
+				7508BA1615666FAD00496778 /* redLight.png in Resources */,
+				7508BA1715666FAD00496778 /* redLight@2x.png in Resources */,
+				7508BA1815666FAD00496778 /* redYellowLight.png in Resources */,
+				7508BA1915666FAD00496778 /* redYellowLight@2x.png in Resources */,
+				7508BA1E1566771C00496778 /* greenButtonBgDown.png in Resources */,
+				7508BA1F1566771C00496778 /* greenButtonBgDown@2x.png in Resources */,
+				7508BA201566771C00496778 /* greenButtonBgUp.png in Resources */,
+				7508BA211566771C00496778 /* greenButtonBgUp@2x.png in Resources */,
+				7508BA27156A79F500496778 /* Icon-72.png in Resources */,
+				7508BA28156A79F500496778 /* Icon-72@2x.png in Resources */,
+				7508BA2A156A7E1700496778 /* Default-Portrait~ipad.png in Resources */,
+				7508BA2C156A7EC300496778 /* Default-Landscape~ipad.png in Resources */,
+				7508BA2E156A7ECA00496778 /* Default-Landscape@2x~ipad.png in Resources */,
+				7508BA30156A7ED600496778 /* Default-Portrait@2x~ipad.png in Resources */,
+				750AC291157E0F6500BC85BA /* iPhoneStoryboard.storyboard in Resources */,
+				750AC294157E101100BC85BA /* Icon.png in Resources */,
+				750AC295157E101100BC85BA /* Icon@2x.png in Resources */,
+				750AC2A5157E3C3F00BC85BA /* Default.png in Resources */,
+				750AC2A6157E3C3F00BC85BA /* Default@2x.png in Resources */,
+				75E233801584DD8000405DB8 /* colorPickerSelectedBackground.png in Resources */,
+				75E233831584DD8700405DB8 /* colorPickerSelectedBackground@2x.png in Resources */,
+				75B3A78F15C92747009C0D02 /* downSound.wav in Resources */,
+				75B3A79015C92747009C0D02 /* recycle.wav in Resources */,
+				75B3A79115C92747009C0D02 /* upSound.wav in Resources */,
+				755C6E1515CBDDA3003EEC5F /* highBeep.wav in Resources */,
+				755C6E1615CBDDA3003EEC5F /* lowBeep.wav in Resources */,
+				755C6E1B15CBEE40003EEC5F /* fanfare.wav in Resources */,
+				75804781169B6AB800FEC118 /* Default-568h@2x.png in Resources */,
+				754EE08517EC7D6900EBF678 /* iTunesArtwork.png in Resources */,
+				754EE08617EC7D6900EBF678 /* iTunesArtwork@2x.png in Resources */,
+				754EE08D17EC7FAD00EBF678 /* Icon-Small-50.png in Resources */,
+				754EE08E17EC7FAD00EBF678 /* Icon-Small-50@2x.png in Resources */,
+				754EE08F17EC7FAD00EBF678 /* Icon-Small.png in Resources */,
+				754EE09017EC7FAD00EBF678 /* Icon-Small@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B72D1B156439B900104DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B72D2A156439B900104DD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75B72D1C156439B900104DD0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75B72CF6156439B800104DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B72D0B156439B800104DD0 /* main.m in Sources */,
+				75B72D0F156439B900104DD0 /* AppDelegate.m in Sources */,
+				75B72D15156439B900104DD0 /* MainViewController.m in Sources */,
+				75B72D3815643ADF00104DD0 /* HistoryViewController.m in Sources */,
+				75B72D3B15643B7200104DD0 /* PuzzlePickerViewController.m in Sources */,
+				75B72DB115651B1A00104DD0 /* DetailedHistoryViewController.m in Sources */,
+				7508BA241569728000496778 /* SettingsViewController.m in Sources */,
+				750AC2A2157E2A6C00BC85BA /* StatsViewController.m in Sources */,
+				755A3F8C1598A6E000B30D4E /* GraphsViewController.m in Sources */,
+				75E5E37615BF96460024DEB2 /* SessionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B72D19156439B900104DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B72D2D156439B900104DD0 /* SpeedCubing_TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75679DEB17EC8FC100371E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CorePlot-CocoaTouch";
+			targetProxy = 75679DEA17EC8FC100371E21 /* PBXContainerItemProxy */;
+		};
+		75B72D24156439B900104DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75B72CF9156439B800104DD0 /* SpeedCubing Timer */;
+			targetProxy = 75B72D23156439B900104DD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		750AC28F157E0F6500BC85BA /* iPhoneStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750AC290157E0F6500BC85BA /* en */,
+			);
+			name = iPhoneStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		75B72D07156439B800104DD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75B72D08156439B800104DD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75B72D10156439B900104DD0 /* iPadStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75B72D11156439B900104DD0 /* en */,
+			);
+			name = iPadStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		75B72D28156439B900104DD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75B72D29156439B900104DD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75B72D2E156439B900104DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		75B72D2F156439B900104DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75B72D31156439B900104DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedCubing Timer/SpeedCubing Timer-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "CorePlot_1.3/Source/**";
+				INFOPLIST_FILE = "SpeedCubing Timer/SpeedCubing Timer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/SpeedCubing_Timer-gcfktdfzrkmqitalawbyjvsxsypb/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/SpeedCubing Timer\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75B72D32156439B900104DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedCubing Timer/SpeedCubing Timer-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "CorePlot_1.3/Source/**";
+				INFOPLIST_FILE = "SpeedCubing Timer/SpeedCubing Timer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/SpeedCubing_Timer-gcfktdfzrkmqitalawbyjvsxsypb/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/SpeedCubing Timer\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75B72D34156439B900104DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpeedCubing Timer.app/SpeedCubing Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedCubing Timer/SpeedCubing Timer-Prefix.pch";
+				INFOPLIST_FILE = "SpeedCubing TimerTests/SpeedCubing TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		75B72D35156439B900104DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpeedCubing Timer.app/SpeedCubing Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedCubing Timer/SpeedCubing Timer-Prefix.pch";
+				INFOPLIST_FILE = "SpeedCubing TimerTests/SpeedCubing TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75B72CF4156439B800104DD0 /* Build configuration list for PBXProject "SpeedCubing Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B72D2E156439B900104DD0 /* Debug */,
+				75B72D2F156439B900104DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B72D30156439B900104DD0 /* Build configuration list for PBXNativeTarget "SpeedCubing Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B72D31156439B900104DD0 /* Debug */,
+				75B72D32156439B900104DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B72D33156439B900104DD0 /* Build configuration list for PBXNativeTarget "SpeedCubing TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B72D34156439B900104DD0 /* Debug */,
+				75B72D35156439B900104DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75B72CF1156439B800104DD0 /* Project object */;
+}
